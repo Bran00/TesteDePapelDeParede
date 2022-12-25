@@ -1,0 +1,38 @@
+img {
+  width: 400px;
+  height: 400px;
+}
+
+#picture__input {
+  display: none;
+}
+
+.picture {
+  width: 400px;
+  aspect-ratio: 16/9;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  border: 2px dashed currentcolor;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+picture:hover {
+  color: #777;
+  background: #ccc;
+}
+
+.picture__img {
+  max-width: 100%;
+}
+
+.result {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-size: 400px;
+  
+}
